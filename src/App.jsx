@@ -1,20 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import { Navegacion } from "./Navegacion";
+import {Home} from "./Home";
+import {Login} from "./Login";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-  <div>
- <h1>
-hola mamawebos
-
- </h1>
-
-  </div> 
-  )
+    <div className="App">
+      <Navegacion />
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Home" element={<Home />} />
+      </Routes>
+    </div>
+  );
 }
 
-export default App
+export default App;
+

@@ -1,0 +1,128 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tu diseño */
+  }
+  
+ 
+  .publicidad-derecha {
+    width: 30%; /* Ajusta el ancho según tu diseño */
+    background-color: whitesmoke;
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+     text-align: center;
+  }
+  
+  .publicidad-izquierda {
+
+    
+    width: 30%; /* Ajusta el ancho según tu diseño */
+    background-color: whitesmoke;
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+     text-align: center;
+  }
+  
+
+
+
+  .publicidad-izquierda h1 {
+    display: flex;
+    justify-content: center;
+     text-align: center;
+     margin-top: 350px;
+  }
+  
+
+  .publicidad-derecha h1 {
+    display: flex;
+    justify-content: center;
+     text-align: center;
+     margin-top: 350px;
+  }
+
+  .boton-central {
+    width: 40%; /* Ajusta el ancho según tu diseño */
+    text-align: center;
+  }
+  
+  .boton-central button {
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+
+  
+
+  .boton {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+  }
+  
+
+  .contador{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+   
+   font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .temporizador {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 5px;
+    margin-top: 30px;
+    font-size: 20px;
+
+  }
+
+  .boton:active {
+    animation: sacudida 0.3s ease-out;
+    background-color: rgb(42, 42, 42); /* Color final del botón */
+  }
+  @keyframes sacudida {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(-5px);
+    }
+    20% {
+      transform: translateX(5px);
+    }
+    30% {
+      transform: translateX(-5px);
+    }
+    40% {
+      transform: translateX(5px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+  }
+  

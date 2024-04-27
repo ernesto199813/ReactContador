@@ -1,0 +1,80 @@
+.Login {
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 1rem;
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
+
+
+.Login h1 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+  
+  .Login form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Login form label {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .Login form input {
+
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+
+
+  
+  .Login form button {
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(to right, #007bff 0%, #0069d9 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .Login form button:hover {
+    background-image: linear-gradient(to right, #0069d9 0%, #004c9f 100%);
+  }
+  
+
+  
+  
+  .Login form a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    margin-top: 1rem;
+    text-align: right;
+  }
